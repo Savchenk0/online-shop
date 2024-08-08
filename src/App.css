@@ -1,0 +1,43 @@
+:root {
+	--headerHeight: 60px;
+	--blue-color: #6495ed;
+}
+.container {
+	margin: 0 auto;
+	width: 1280px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a {
+	font-family: sans-serif;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+p {
+	margin: 0;
+}
+.blue {
+	color: var(--blue-color);
+}
+.main-section {
+	height: calc(100vh - var(--headerHeight));
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+}
+.main-section::-webkit-scrollbar {
+	width: 17px;
+}
+
+.main-section::-webkit-scrollbar-thumb {
+	background: hsl(0, 0%, 0%);
+	border-radius: 30px;
+	border: 3px solid white;
+}

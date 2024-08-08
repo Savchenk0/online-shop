@@ -1,0 +1,12 @@
+.products-page__content-wrapper {
+	display: flex;
+	column-gap: 20px;
+	padding-top: 15px;
+}
+
+.loading-text {
+	text-align: center;
+	margin-top: 40px;
+	font-weight: bold;
+	font-size: 28px;
+}

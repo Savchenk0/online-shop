@@ -1,0 +1,27 @@
+.header {
+	height: var(--headerHeight);
+	box-sizing: border-box;
+	background-color: #000;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.header__nav {
+	list-style: none;
+	display: flex;
+	gap: 50px;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+.header__nav-item {
+	color: #fff;
+	font-size: 24px;
+}
+.header__content-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.header__logo {
+	width: 50px;
+	height: 50px;
+}
